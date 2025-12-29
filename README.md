@@ -1,2 +1,3 @@
-# Sitio de Aislamiento Industrial
-Publicado con GitHub Pages.
+# Web corporativa
+Aislamientos Industriales Wanner SLU
+Publicada con GitHub Pages y Bootstrap 5.
