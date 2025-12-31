@@ -1,67 +1,111 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>Wanner | Aislamientos Industriales</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <title>Wanner — Aislamientos Industriales | Aislamiento térmico y acústico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Wanner Aislamientos Industriales SLU — soluciones profesionales de aislamiento térmico, acústico y revestimientos anticorrosivos. Proyectos, sectores atendidos y contacto." />
+  <meta name="keywords" content="aislamiento industrial, aislamiento térmico, aislamiento acústico, revestimientos anticorrosivos, Wanner" />
+  <link rel="canonical" href="https://TU_USUARIO.github.io/mi-repo/" />
+  <meta name="robots" content="index, follow" />
 
-  <!-- Bootstrap -->
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Wanner — Aislamientos Industriales" />
+  <meta property="og:description" content="Soluciones profesionales de aislamiento térmico y acústico para la industria. Proyectos y servicios." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1581092919534-6c9c8c0f5c67?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:url" content="https://TU_USUARIO.github.io/mi-repo/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Wanner — Aislamientos Industriales" />
+  <meta name="twitter:description" content="Soluciones profesionales de aislamiento térmico y acústico para la industria." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1581092919534-6c9c8c0f5c67?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Fonts -->
+  <!-- Fonts (permisible) -->
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Wanner Aislamientos Industriales SLU",
+    "url": "https://TU_USUARIO.github.io/mi-repo/",
+    "logo": "https://TU_USUARIO.github.io/mi-repo/logo.png",
+    "sameAs": []
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Wanner — Aislamientos Industriales",
+    "description": "Soluciones profesionales de aislamiento térmico, acústico y revestimientos anticorrosivos.",
+    "url": "https://TU_USUARIO.github.io/mi-repo/"
+  }
+  </script>
+
+  <!-- Small accessibility helper -->
+  <style>
+    /* solo estilos mínimos para que las imágenes mantengan cover y las cards sean uniformes */
+    .card-img-cover { height: 180px; object-fit: cover; width: 100%; display:block; }
+    .project-thumb { height: 110px; object-fit: cover; width:100%; display:block; }
+  </style>
 </head>
 
-<body class="bg-light" style="font-family:Inter">
+<body class="bg-light" style="font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;">
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
   <div class="container">
-    <a class="navbar-brand fw-bold" style="font-family:Oswald;color:#9c6b3d" href="#">
+    <a class="navbar-brand fw-bold" href="#" style="font-family:Oswald;color:#8B5A2B;">
       WANNER
-      <span class="fw-normal text-white fs-6">Aislamientos Industriales Wanner SLU</span>
+      <div class="small text-white">Aislamientos Industriales Wanner SLU</div>
     </a>
 
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+            aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="nav">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
         <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
         <li class="nav-item"><a class="nav-link" href="#sectores">Sectores</a></li>
         <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
         <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre Nosotros</a></li>
-        <li class="nav-item ms-lg-3">
-          <a class="btn btn-warning" href="#contacto">Solicitar Presupuesto</a>
-        </li>
+        <li class="nav-item ms-2"><a class="btn btn-warning" href="#contacto">Solicita Presupuesto</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- HERO PROFESIONAL -->
-<header class="text-white position-relative">
-  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
-  <div class="container position-relative py-5" style="min-height:420px">
+<!-- HERO -->
+<header class="position-relative text-white" aria-label="Imagen hero">
+  <!-- overlay (Bootstrap utilities) -->
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity:.65; z-index:1"></div>
+
+  <div class="container position-relative py-5" style="min-height:420px; z-index:2;">
     <div class="row align-items-center h-100">
       <div class="col-lg-7">
-        <h1 class="display-5 fw-bold">
-          Aislamiento Industrial Eficiente
-        </h1>
-        <p class="lead mt-3">
-          Soluciones profesionales en aislamiento térmico y acústico
-          para instalaciones industriales exigentes.
+        <h1 class="display-5 fw-bold">Aislamiento Industrial Eficiente</h1>
+        <p class="lead mt-3 text-white-75">
+          Soluciones profesionales en aislamiento térmico y acústico para instalaciones industriales exigentes.
         </p>
-        <a href="#contacto" class="btn btn-warning btn-lg mt-3">
-          Solicitar Presupuesto
-        </a>
+        <a class="btn btn-warning btn-lg mt-3" href="#contacto">Solicitar Presupuesto</a>
       </div>
     </div>
   </div>
+
+  <!-- imagen hero (usa CDN, si quieres la cambias por una propia) -->
   <img src="https://images.unsplash.com/photo-1581092919534-6c9c8c0f5c67?auto=format&fit=crop&w=1600&q=80"
-       class="position-absolute top-0 start-0 w-100 h-100"
-       style="object-fit:cover; z-index:-1;">
+       alt="Instalación de aislamiento industrial" class="position-absolute top-0 start-0 w-100 h-100"
+       style="object-fit:cover; z-index:0;">
 </header>
 
 <!-- SERVICIOS -->
@@ -70,14 +114,13 @@
     <h2 class="text-center mb-4">Nuestros Servicios</h2>
 
     <div class="row g-4">
-      <!-- CARD -->
       <div class="col-md-3">
         <div class="card h-100 shadow-sm">
           <img src="https://images.unsplash.com/photo-1581091215367-6b1b1f5a3a02?auto=format&fit=crop&w=800&q=80"
-               class="card-img-top" style="height:180px;object-fit:cover">
+               class="card-img-cover" alt="Aislamiento térmico">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Aislamiento Térmico</h5>
-            <p class="card-text">Reducción de pérdidas energéticas y protección térmica.</p>
+            <p class="card-text text-muted">Reducción de pérdidas y protección térmica en tuberías, hornos y calderas.</p>
           </div>
         </div>
       </div>
@@ -85,10 +128,10 @@
       <div class="col-md-3">
         <div class="card h-100 shadow-sm">
           <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80"
-               class="card-img-top" style="height:180px;object-fit:cover">
+               class="card-img-cover" alt="Aislamiento acústico">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Aislamiento Acústico</h5>
-            <p class="card-text">Control del ruido en entornos industriales.</p>
+            <p class="card-text text-muted">Control de ruido en compresores, ventiladores y salas de máquinas.</p>
           </div>
         </div>
       </div>
@@ -96,10 +139,10 @@
       <div class="col-md-3">
         <div class="card h-100 shadow-sm">
           <img src="https://images.unsplash.com/photo-1590650516494-0c8e4e6d1e67?auto=format&fit=crop&w=800&q=80"
-               class="card-img-top" style="height:180px;object-fit:cover">
+               class="card-img-cover" alt="Revestimientos industriales">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Revestimientos</h5>
-            <p class="card-text">Protección anticorrosiva y acabados técnicos.</p>
+            <p class="card-text text-muted">Sistemas anticorrosivos y barreras para ambientes agresivos.</p>
           </div>
         </div>
       </div>
@@ -107,13 +150,126 @@
       <div class="col-md-3">
         <div class="card h-100 shadow-sm">
           <img src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=800&q=80"
-               class="card-img-top" style="height:180px;object-fit:cover">
+               class="card-img-cover" alt="Consultoría técnica">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Consultoría Técnica</h5>
-            <p class="card-text">Soluciones adaptadas a cada instalación.</p>
+            <p class="card-text text-muted">Cálculos térmicos, especificaciones y cumplimiento normativo.</p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTORES -->
+<section id="sectores" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Sectores que Atendemos</h2>
+
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card text-white">
+          <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80" class="card-img" alt="Industria química">
+          <div class="card-img-overlay d-flex align-items-end p-0">
+            <h5 class="bg-dark bg-opacity-75 p-3 w-100 text-center m-0">Industria Química</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-white">
+          <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80" class="card-img" alt="Energía">
+          <div class="card-img-overlay d-flex align-items-end p-0">
+            <h5 class="bg-dark bg-opacity-75 p-3 w-100 text-center m-0">Energía</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-white">
+          <img src="https://images.unsplash.com/photo-1532634896-26909d0d9b18?auto=format&fit=crop&w=800&q=80" class="card-img" alt="Alimentación">
+          <div class="card-img-overlay d-flex align-items-end p-0">
+            <h5 class="bg-dark bg-opacity-75 p-3 w-100 text-center m-0">Alimentación</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-white">
+          <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80" class="card-img" alt="Oil & Gas">
+          <div class="card-img-overlay d-flex align-items-end p-0">
+            <h5 class="bg-dark bg-opacity-75 p-3 w-100 text-center m-0">Oil & Gas</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS con varias imágenes por proyecto (se abren en nueva pestaña) -->
+<section id="proyectos" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Proyectos Recientes</h2>
+
+    <div class="row g-4">
+      <!-- Proyecto 1 -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Planta Energética — Aislamiento completo</h5>
+            <p class="card-text text-muted">Instalación de aislamiento en sistemas de generación y tuberías principales.</p>
+
+            <div class="row g-2 mt-3">
+              <!-- miniatura -> abre la imagen en nueva pestaña -->
+              <div class="col-4">
+                <a href="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1600&q=80" target="_blank" rel="noopener noreferrer" title="Ver imagen">
+                  <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80" alt="Planta energ. vista 1" class="project-thumb rounded">
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=80" target="_blank" rel="noopener noreferrer" title="Ver imagen">
+                  <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Planta energ. vista 2" class="project-thumb rounded">
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1600&q=80" target="_blank" rel="noopener noreferrer" title="Ver imagen">
+                  <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" alt="Planta energ. vista 3" class="project-thumb rounded">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Refinería Industrial — Protección térmica</h5>
+            <p class="card-text text-muted">Revestimientos y aislamientos resistentes a altas temperaturas y ambientes corrosivos.</p>
+
+            <div class="row g-2 mt-3">
+              <div class="col-4">
+                <a href="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80" target="_blank" rel="noopener noreferrer" title="Ver imagen">
+                  <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80" alt="Refineria vista 1" class="project-thumb rounded">
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="https://images.unsplash.com/photo-1495427513693-5f6d6f1a8f8b?auto=format&fit=crop&w=1600&q=80" target="_blank" rel="noopener noreferrer" title="Ver imagen">
+                  <img src="https://images.unsplash.com/photo-1495427513693-5f6d6f1a8f8b?auto=format&fit=crop&w=800&q=80" alt="Refineria vista 2" class="project-thumb rounded">
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="https://images.unsplash.com/photo-1530268729833-3e1b5c3b7826?auto=format&fit=crop&w=1600&q=80" target="_blank" rel="noopener noreferrer" title="Ver imagen">
+                  <img src="https://images.unsplash.com/photo-1530268729833-3e1b5c3b7826?auto=format&fit=crop&w=800&q=80" alt="Refineria vista 3" class="project-thumb rounded">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -125,21 +281,19 @@
       <div class="col-md-6">
         <h2>Sobre Nosotros</h2>
         <p>
-          <strong>Wanner Aislamientos Industriales SLU</strong> es una empresa especializada
-          en soluciones de aislamiento industrial, con más de 20 años de experiencia
-          trabajando en entornos industriales exigentes.
+          <strong>Wanner Aislamientos Industriales SLU</strong> es especialista en aislamiento industrial con >20 años
+          de experiencia implementando soluciones técnicas, seguras y duraderas.
         </p>
         <ul>
-          <li>Alta especialización técnica</li>
-          <li>Personal cualificado</li>
-          <li>Compromiso con la seguridad</li>
-          <li>Calidad certificada</li>
+          <li>Equipo técnico certificado</li>
+          <li>Control de calidad y pruebas</li>
+          <li>Documentación para cumplimiento normativo</li>
         </ul>
       </div>
 
       <div class="col-md-6">
         <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80"
-             class="img-fluid rounded shadow">
+             alt="Equipo técnico" class="img-fluid rounded shadow">
       </div>
     </div>
   </div>
@@ -152,9 +306,9 @@
 
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <input class="form-control mb-3" placeholder="Nombre o Empresa">
-        <input class="form-control mb-3" placeholder="Email">
-        <textarea class="form-control mb-3" rows="4" placeholder="Mensaje"></textarea>
+        <input class="form-control mb-3" placeholder="Nombre o Empresa" aria-label="Nombre o empresa">
+        <input class="form-control mb-3" placeholder="Email" aria-label="Email">
+        <textarea class="form-control mb-3" rows="4" placeholder="Mensaje" aria-label="Mensaje"></textarea>
         <div class="text-center">
           <button class="btn btn-warning">Enviar</button>
         </div>
@@ -163,10 +317,18 @@
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="bg-black text-white text-center py-3">
-  © 2024 Wanner Aislamientos Industriales
+  <div class="container">
+    <small>© <span id="year"></span> Wanner Aislamientos Industriales SLU — Todos los derechos reservados.</small>
+  </div>
 </footer>
 
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // año dinámico
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
